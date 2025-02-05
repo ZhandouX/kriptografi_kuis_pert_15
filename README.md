@@ -7,8 +7,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Penjelasan Singkat
-##
+# Project qrcode
+## Instalasi
+1. Membuat Project Baru:  
+   ```
+   create-project laravel/laravel qrcode
+   ```
+2. Masuk ke folder project:  
+   ```
+   cd qrcode
+   ```
+3. Membuat Database Baru dengan nama database "qrcode"  
+   
+4. Copy file `.env.example` menjadi `.env` dan atur konfigurasi database.  
+5. Generate app key:  
+   ```
+   php artisan key:generate
+   ```
+6. Jalankan migrasi database:  
+   ```
+   php artisan migrate
+   ```
+7. Jalankan server lokal:  
+   ```
+   php artisan serve
+   ```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
