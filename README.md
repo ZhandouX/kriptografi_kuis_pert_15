@@ -18,7 +18,7 @@
    cd qrcode
    ```
 3. Membuat Database Baru dengan nama database "qrcode"  
-   
+   ![Daftar Tabel: ](screenshot/table.png)
 4. Copy file `.env.example` menjadi `.env` dan atur konfigurasi database.  
 5. Generate app key:  
    ```
